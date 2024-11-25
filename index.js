@@ -4,7 +4,7 @@ const path = require('path'); // Corrigido para 'path'
 const newsRoutes = require('./src/routes/news'); // Importar as rotas
 
 app.set('view engine', 'ejs'); // Configurar EJS como motor de visualização
-app.set('views', path.join(__dirname, 'src/views')); // Define o diretório das visualizações
+app.set('views', path.join(__dirname, 'src/views/news/')); // Define o diretório das visualizações
 
 app.use(express.static(path.join(__dirname, 'public'))); // Para arquivos estáticos
 
