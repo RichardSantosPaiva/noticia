@@ -8,7 +8,7 @@
 
 header {
   padding: 10px;
-  background-color: red;
+  background-color: blue;
 }
 
 body {
@@ -38,12 +38,12 @@ h1{
 
 .noticias-esquerda .noticia {
   background-color: white;
-  border:3px solid red;
+  border:3px solid blue;
 }
 
 .noticias-direita .noticia {
   background-color: white;
-  border:3px solid red;
+  border:3px solid blue;
   padding: 10px;
 }
 
@@ -100,7 +100,7 @@ h1{
 }
 
 a{
-  color: red;
+  color: blue;
   font-weight: 500;
   font-size: 1.2rem;
   font-weight: 400;
